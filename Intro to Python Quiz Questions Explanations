@@ -1,0 +1,7 @@
+Question 2 Explanation: 1 + 2 involves two integers, resulting in an integer (int).
+1 + 2. involves an integer and a floating-point number, resulting in a floating-point number (float).
+In Python, operations with a float and an int result in a float to preserve precision.
+
+
+Question 4 Explanation: The solution is i=32 because 32^2=1024 is the first value that exceeds 1000. 
+The value of i is incremented until i^2 exceeds 1000, and 31^2=961 is still less than 1000. Thus, i=32 is the smallest integer where i^2 is larger than 1000.
