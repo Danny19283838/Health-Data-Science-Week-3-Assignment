@@ -1,0 +1,396 @@
+Python 3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> # Create a tuple of five integers and assign it to the variable tuple_1
+>>> tuple_1 = 2, 4, 5, 7, 'ring' # Simply state elements
+>>> tuple_1
+(2, 4, 5, 7, 'ring')
+>>>
+>>>
+>>>
+>>> # Retrieve the first three elements of the list
+>>> my_list[0:3]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'my_list' is not defined
+>>>
+>>>
+>>> # Retrieve the first three elements of the list
+>>> my_list[0:3]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'my_list' is not defined
+>>> # Create a lsit of five random integers and assign it to the variable my_list
+>>> my_list = [7, 4, 8, 2, 9]
+>>>
+>>> # Retrieve the first element of the list
+>>> my_list[0]
+7
+>>> # Retrieve the last element of the list
+>>> my_list[-1]
+9
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> # Retrieve the last element of the list
+>>> my_list[4]
+9
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> # Retrieve the first three elements of the list
+>>> my_list[0:3]
+[7, 4, 8]
+>>>
+>>>
+>>>
+>>>
+>>> # Retrieve the first three elements of the list
+>>> my_list[:3]
+[7, 4, 8]
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> # Retrieve all elements from index 3
+>>> my_list[3:]
+[2, 9]
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> # Retrieve the last three elements of the list
+>>> my_list[-3:]
+[8, 2, 9]
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> # Change the first element of the list to 'First
+>>> my_list[0] = 'First'
+>>> my_list
+['First', 4, 8, 2, 9]
+>>>
+>>>
+>>>
+>>>
+>>> # Change the last element of the list to the list ['one', 'two', 'three']
+>>> my_list[-1] = ['one', 'two', 'three']
+>>> my_list
+['First', 4, 8, 2, ['one', 'two', 'three']]
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> # Return the length of the list
+>>> len(my_list)
+5
+>>>
+>>>
+>>>
+>>>
+>>> # Retrieve the last element of the list
+>>> my_list[-1]
+['one', 'two', 'three']
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> # Retrieve the first element of the last element of the list
+>>> my_list[-1][0]
+'one'
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> # Extend the list with the elements 10, 11, and 12
+>>> my_list.extend([10, 11, 12])
+>>> my_list
+['First', 4, 8, 2, ['one', 'two', 'three'], 10, 11, 12]
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> # Remove the last element of the list
+>>> my_list.pop()
+12
+>>> my_list
+['First', 4, 8, 2, ['one', 'two', 'three'], 10, 11]
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> # Remove the element at index 2
+>>> my_list.pop(2) # The value 8 at index number 2 is removed
+8
+>>> my_list
+['First', 4, 2, ['one', 'two', 'three'], 10, 11]
+>>>
+>>>
+>>>
+>>> # Append the number 6 to the list
+>>> my_list.append(6)
+>>> my_list
+['First', 4, 2, ['one', 'two', 'three'], 10, 11, 6]
+>>>
+>>>
+>>>
+>>>
+>>> # Insert the string 'inserted' at index 2
+>>> my_list.insert(2, 'inserted')
+>>> my_list
+['First', 4, 'inserted', 2, ['one', 'two', 'three'], 10, 11, 6]
+>>>
+>>>
+>>>
+>>> # Create a two new lists of integers
+>>> my_list1 = [1, 2, 3, 4, 5]
+>>> my_list2 = [6, 7, 8, 9, 10]
+>>>
+>>>
+>>> # Concatenate the two lists
+>>> my_list1 + my_list2
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> # Determine of the numner 5 is in my_list1
+>>> 5 in my_list1
+True
+>>>
+>>> # Reverse the list
+>>> my_list1.reverse()
+>>> my_list1
+[5, 4, 3, 2, 1]
+>>>
+>>>
+>>>
+>>>
+>>> # Use the list function and the range function to create a list of integers from 0 to 9
+>>> list(range(10))
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> # Created a list containing the string 'I love Python'
+>>> list('I love Python')
+['I', ' ', 'l', 'o', 'v', 'e', ' ', 'P', 'y', 't', 'h', 'o', 'n']
+>>>
+>>>
+>>>
+>>>
+>>> # Create a tuple of five integers and assign it to the variable tuple_1
+>>> tuple_1 = 2, 4, 5, 7, 'ring' # Simply state elements
+>>> tuple_1
+(2, 4, 5, 7, 'ring')
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> # Type of the tuple
+>>> type(tuple_1)
+<class 'tuple'>
+>>>
+>>>
+>>>
+>>>
+>>> # Create a tuple with the elements 1, 2, 'three', and the list 'Python' and assign it to the variable tuple_2
+>>> tuple_2 = (1, 2, 'three', list('Python')) # Use parentheses
+>>> tuple_2
+(1, 2, 'three', ['P', 'y', 't', 'h', 'o', 'n'])
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> # Retrieve the first element of tuple_1
+>>> tuple_1[0]
+2
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> # Create a tuple with the string elements 'Python', 'R', and 'Julia' and assign it to the variable langauges
+>>> languages = ('Python', 'R', 'Julia')
+>>> languages
+('Python', 'R', 'Julia')
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> # Assign each element of the tuple to a separate variable, using the variable names one, two, and three
+>>> one, two, three = languages
+>>>
+>>>
+>>>
+>>>
+>>> # Retrieve the object in one
+>>> one
+'Python'
+>>>
+>>>
+>>>
+>>>
+>>> names = ['Mary', 'Anne', 'Rene']
+>>> surnames = ['Johnstone', 'Barnes', 'Le Roux']
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> # Use the zip function to create a list of tuples
+>>> list(zip(names, surnames))
+[('Mary', 'Johnstone'), ('Anne', 'Barnes'), ('Rene', 'Le Roux')]
+>>>
+>>>
+>>>
+>>>
+>>> # Generate a list of tuples (each with three elements)
+>>> data_set = [('Anna', 'Rogers', 33), ('Susan', 'Roberts', 25), ('Rene', 'Du Bois', 28)]
+>>>
+>>> # Unzip the thee element tuples
+>>> names, lastnames, ages = zip(*data_set)
+>>> # Return the names
+>>> names
+('Anna', 'Susan', 'Rene')
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> # Return the lastnames
+>>>
+>>> lastnames
+('Rogers', 'Roberts', 'Du Bois')
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> # Return the ages
+>>> ages
+(33, 25, 28)
+>>>
+>>>
+>>> # Generate a dictionary
+>>> id345 = {'First Name':'Jenny', 'Last Name':'Gregory', 'Age':48, 'Heart Rate':75}
+>>> # Return the keys of the dictionary
+>>> id345.keys()
+dict_keys(['First Name', 'Last Name', 'Age', 'Heart Rate'])
+>>>
+>>>
+>>>
+>>> # Return the values of the dictionary
+>>> id345.values()
+dict_values(['Jenny', 'Gregory', 48, 75])
+>>>
+>>>
+>>>
+>>> # Return the value for the 'Firt Name' key
+>>> id345['First Name']
+'Jenny'
+>>>
+>>>
+>>>
+>>> # Generate a dictionary using the dict function
+>>> my_dict = dict([(1, 'A'), (2, 'B'), (3,'C'), (4,'D')])
+>>>
+>>> # Return a list of the values of the dictionary
+>>> list(my_dict.values())
+['A', 'B', 'C', 'D']
+>>>
+>>>
+>>> # Generate set with the elements 1, 2, 3, 4, 4, 4, 4, 1
+>>> set_1 = {1, 2, 3, 4, 4, 4, 4, 1}
+>>> set_1 # Call object and print to the scren
+{1, 2, 3, 4}
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> # Add the element 7 to the set
+>>> set_1.add(7)
+>>> set_1
+{1, 2, 3, 4, 7}
+>>>
+>>>
+>>>
+>>> # Remove the element 4 from the set
+>>> set_1.remove(4)
+>>> set_1
+{1, 2, 3, 7}
+>>>
+>>>
+>>>
+>>>
+>>> # First set
+>>> set_A = {'a', 'a', 'a', 'b', 'c', 'd', 'e', 'f', 'e', 'a'}
+>>> set_A
+{'a', 'b', 'c', 'e', 'd', 'f'}
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> # Use list comprehension to create a list of the first 10 square natural numbers
+>>> [x**2 for x in range(1, 11)]
+[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> # Squares of natural numbers larger than 5
+>>> [n**2 for n in range(1, 11) if n > 5]
+[36, 49, 64, 81, 100]
+>>>
+>>>
+>>>
+>>> # Only include elements that are less than 50
+>>> [n**2 for n in range(1, 11) if n**2 < 50]
+[1, 4, 9, 16, 25, 36, 49]
+>>>
+>>>
+>>>
+>>>
+KeyboardInterrupt
+>>>

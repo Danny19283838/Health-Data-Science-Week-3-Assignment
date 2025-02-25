@@ -1,0 +1,176 @@
+Python 3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> # Defining a list of integers
+>>> numbers = [10, 20, 30, 40, 50]
+>>>
+>>>
+>>> # Accessing the third element (index 2)
+>>> third_element = my_list[2]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'my_list' is not defined
+>>> print(third_element)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'third_element' is not defined
+>>>
+>>>
+>>> third_element = my_list[2]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'my_list' is not defined
+>>> print(third_element)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'third_element' is not defined
+>>> my_list = [10, 20, 30, 40, 50]
+>>> # Accessing the third element (index 2)
+>>> third_element = my_list[2]
+>>> print(third_element)
+30
+>>>
+>>>
+>>>
+>>> # Adding "new_item" to the end of the list
+>>> my_list.append("new_item")
+>>> print(my_list)
+[10, 20, 30, 40, 50, 'new_item']
+>>>
+>>>
+>>>
+>>> # Creating a tuple with the items "apple", "banana", and "cherry"
+>>> my_tuple = ("apple", "banana", "cherry")
+>>> print(my_tuple)
+('apple', 'banana', 'cherry')
+>>>
+>>> # Accessing the first element (index 0)
+>>> first_element = my_tuple[0]
+>>> print(first_element)
+apple
+>>>
+>>>
+>>>
+>>>
+>>> # Defining a dictionary with keys "name" and "age" and their respective values
+>>> my_dict = {
+...     "name": "John Doe",
+...     "age": 30
+... }
+>>> print(my_dict)
+{'name': 'John Doe', 'age': 30}
+>>>
+>>>
+>>>
+>>> name_value = my_dict["name"]
+>>> print(name_value)
+John Doe
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> # Changing the value associated with the key "age" to 35
+>>> my_dict["age"] = 35
+>>> print(my_dict)
+{'name': 'John Doe', 'age': 35}
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> # Adding a new key-value pair "city": "New York"
+>>> my_dict["city"] = "New York"
+>>> print(my_dict)
+{'name': 'John Doe', 'age': 35, 'city': 'New York'}
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> # Creating a set with the items "apple", "banana", and "cherry"
+>>> my_set = {"apple", "banana", "cherry"}
+>>> print(my_set)
+{'apple', 'cherry', 'banana'}
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> # Adding the item "orange" to the set
+>>> my_set.add("orange")
+>>> print(my_set)
+{'apple', 'orange', 'cherry', 'banana'}
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> # Method 1: Using the remove() method
+>>> my_set.remove("banana")
+>>> print(my_set)
+{'apple', 'orange', 'cherry'}
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> # Defining the list
+>>> my_list = [1, 2, 3, 4, 5]
+>>>
+>>> # Finding the length of the list
+>>> length = len(my_list)
+>>>
+>>> print(length)
+5
+>>>
+>>>
+>>>
+>>>
+>>> # Multiplying the list by 2
+>>> result = my_list * 2
+>>> print(result)
+[1, 2, 3, 4, 5, 1, 2, 3, 4, 5]
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> # Creating a set from the list with duplicate elements
+>>> result = set([1, 2, 2, 3, 4, 4, 4, 5, 5])
+>>> print(result)
+{1, 2, 3, 4, 5}
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
